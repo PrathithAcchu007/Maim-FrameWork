@@ -3,19 +3,20 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.autodesk.campaign_with_products.Test.CampaignwithProductsTest">
+      <class name="practice.ExtentReportTest">
         <methods>
+          <include name="skipped"/>
           <include name="configureAT"/>
           <include name="configureAS"/>
           <include name="configureBT"/>
           <include name="configureAC"/>
           <include name="configureAM"/>
+          <include name="failure"/>
           <include name="configureBM"/>
-          <include name="campaignwithProduct"/>
           <include name="configureBS"/>
           <include name="configureBC"/>
         </methods>
-      </class> <!-- com.crm.autodesk.campaign_with_products.Test.CampaignwithProductsTest -->
+      </class> <!-- practice.ExtentReportTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -17,7 +17,7 @@ public class PropertiesFileUtility {
 	 * @throws Throwable 
 	 */
 	public String accessTheDatafromPropertiesFile(String key) throws Throwable {
-		FileInputStream fis=new FileInputStream(".//src//main//resources//credentials.properties");
+		FileInputStream fis=new FileInputStream(IPathConstant.PROPERTY_PATH);
 		Properties prop_obj= new Properties();
 		prop_obj.load(fis);
 		return prop_obj.getProperty(key);

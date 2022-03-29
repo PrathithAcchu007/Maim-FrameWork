@@ -24,7 +24,7 @@ public class ExcelUtility {
 	 */
 
 	public String acessTheDatafromExcelSheet(String sheetname,int Rownum,int Cellnum) throws Throwable {
-		FileInputStream fis=new FileInputStream(".//src//test//resources//TestScriptsData.xlsx");
+		FileInputStream fis=new FileInputStream(IPathConstant.EXCEL_PATH);
 		Workbook book= WorkbookFactory.create(fis);
 		//Sheet sheet=book.getSheet(sheetname);
 		//Row row=sheet.getRow(Rownum);
