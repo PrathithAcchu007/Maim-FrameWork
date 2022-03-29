@@ -32,7 +32,7 @@ public class ListenersImplimentationClass implements  ITestListener {
 		test.log(Status.FAIL, result.getThrowable());
 		String path=null;
 		try {
-			path = new WebdriverUtility().toTakeScreenshot(BaseClass.monitorDriver, result.getMethod().getMethodName()+"html");
+			path = new WebdriverUtility().toTakeScreenshot(BaseClass.monitorDriver, result.getMethod().getMethodName());
 			System.out.println(path);
 		} catch (Throwable e) {
 			e.printStackTrace();
@@ -56,7 +56,7 @@ public class ListenersImplimentationClass implements  ITestListener {
 
 	public void onStart(ITestContext context) {
 		/* Step 1:Extent report configuration*/
-		ExtentSparkReporter htmlReporter=new ExtentSparkReporter("./extentReport"+new JavaUtility().getsystemDateandTime());
+		ExtentSparkReporter htmlReporter=new ExtentSparkReporter("./extentReport"+new JavaUtility().getsystemDateandTime()+"html");
 		htmlReporter.config().setReportName("Regression execution report");
 		htmlReporter.config().setDocumentTitle("Comcast Automation execution Report");
 		htmlReporter.config().setTheme(Theme.DARK);
