@@ -16,15 +16,15 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
  *
  */
 public class ListenersImplimentationClass implements  ITestListener {
- 
+
 	ExtentTest test;
 	ExtentReports report;
 	public void onTestStart(ITestResult result) {
-	test =report.createTest(result.getMethod().getMethodName());
+		test =report.createTest(result.getMethod().getMethodName());
 	}
 
 	public void onTestSuccess(ITestResult result) {
-	test.log(Status.PASS, result.getMethod().getMethodName());
+		test.log(Status.PASS, result.getMethod().getMethodName());
 	}
 
 	public void onTestFailure(ITestResult result) {
@@ -38,7 +38,7 @@ public class ListenersImplimentationClass implements  ITestListener {
 			e.printStackTrace();
 		}
 		test.addScreenCaptureFromPath(path);
-	}
+		}
 
 	public void onTestSkipped(ITestResult result) {
 		test.log(Status.SKIP, result.getMethod().getMethodName());
@@ -60,7 +60,7 @@ public class ListenersImplimentationClass implements  ITestListener {
 		htmlReporter.config().setReportName("Regression execution report");
 		htmlReporter.config().setDocumentTitle("Comcast Automation execution Report");
 		htmlReporter.config().setTheme(Theme.DARK);
-		
+
 		/*Step 2: Attach the physical report and do the system configuration*/
 		report=new ExtentReports();
 		report.attachReporter(htmlReporter);
@@ -71,7 +71,7 @@ public class ListenersImplimentationClass implements  ITestListener {
 	}
 
 	public void onFinish(ITestContext context) {
-	report.flush();
+		report.flush();
 	}
 
 
