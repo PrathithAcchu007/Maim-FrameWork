@@ -161,7 +161,7 @@ public class WebdriverUtility {
 		//String date=Calendar.getInstance().getTime().toString().replace(":", "-");
 		File src = screenshot.getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src,new File ("./screenshot/"+screenShotname+jlib.getsystemDateandTimeFormat()+".png"));
-		File destination = new File ("./screenshot/"+screenShotname+jlib.getsystemDateandTime()+".png");
+		File destination = new File ("./screenshot/"+screenShotname+jlib.getsystemDateandTimeFormat()+".png");
 		return destination.getAbsolutePath();
 
 //		Date d = new Date();
