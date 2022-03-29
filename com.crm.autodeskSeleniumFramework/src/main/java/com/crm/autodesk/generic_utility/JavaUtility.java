@@ -35,7 +35,7 @@ public class JavaUtility {
 	 */
 	public String getsystemDateandTimeFormat() {
 		Date date=new Date();
-		String DateandTime=date.toString().replace(":", "-");
+		String DateandTime=date.toString().replace(":","-");
 
 		String year = DateandTime.split(" ")[5];
 		String dd = DateandTime.split(" ")[2];
