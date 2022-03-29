@@ -32,7 +32,7 @@ public class ListenersImplimentationClass implements  ITestListener {
 		test.log(Status.FAIL, result.getThrowable());
 		String path=null;
 		try {
-			path = new WebdriverUtility().toTakeScreenshot(BaseClass.monitorDriver, result.getMethod().getMethodName());
+			path = new WebdriverUtility().toTakeScreenshot(BaseClass.monitorDriver, result.getMethod().getMethodName()+"html");
 			System.out.println(path);
 		} catch (Throwable e) {
 			e.printStackTrace();
