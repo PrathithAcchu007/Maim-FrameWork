@@ -56,7 +56,7 @@ public class ListenersImplimentationClass implements  ITestListener {
 
 	public void onStart(ITestContext context) {
 		/* Step 1:Extent report configuration*/
-		ExtentSparkReporter htmlReporter=new ExtentSparkReporter("./extentReport"+new JavaUtility().getsystemDateandTime()+"html");
+		ExtentSparkReporter htmlReporter=new ExtentSparkReporter("./extentReport"+new JavaUtility().getsystemDateandTimeFormat());
 		htmlReporter.config().setReportName("Regression execution report");
 		htmlReporter.config().setDocumentTitle("Comcast Automation execution Report");
 		htmlReporter.config().setTheme(Theme.DARK);
