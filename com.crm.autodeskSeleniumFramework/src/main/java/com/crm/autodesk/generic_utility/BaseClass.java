@@ -11,10 +11,10 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
 
 import com.vtiger.ObjectRepository.HomePage;
 import com.vtiger.ObjectRepository.LoginPage;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
