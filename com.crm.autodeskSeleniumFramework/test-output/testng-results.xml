@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28378" started-at="2022-03-23T18:13:45 IST" finished-at="2022-03-23T18:14:14 IST">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateOrganizationandValidateTest.createOrganization()[pri:0, instance:com.crm.autodesk.organization.Test.CreateOrganizationandValidateTest@6d3af739]" name="createOrganization" class="com.crm.autodesk.organization.Test.CreateOrganizationandValidateTest"/>
+      </group> <!-- regressionTest -->
+    </groups>
+    <test name="Default test" duration-ms="28378" started-at="2022-03-23T18:13:45 IST" finished-at="2022-03-23T18:14:14 IST">
+      <class name="com.crm.autodesk.organization.Test.CreateOrganizationandValidateTest">
+        <test-method status="PASS" signature="configureBS()[pri:0, instance:com.crm.autodesk.organization.Test.CreateOrganizationandValidateTest@6d3af739]" name="configureBS" is-config="true" duration-ms="12" started-at="2022-03-23T18:13:45 IST" finished-at="2022-03-23T18:13:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBS -->
+        <test-method status="PASS" signature="configureBT()[pri:0, instance:com.crm.autodesk.organization.Test.CreateOrganizationandValidateTest@6d3af739]" name="configureBT" is-config="true" duration-ms="1" started-at="2022-03-23T18:13:45 IST" finished-at="2022-03-23T18:13:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBT -->
+        <test-method status="PASS" signature="configureBC()[pri:0, instance:com.crm.autodesk.organization.Test.CreateOrganizationandValidateTest@6d3af739]" name="configureBC" is-config="true" duration-ms="6363" started-at="2022-03-23T18:13:46 IST" finished-at="2022-03-23T18:13:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBC -->
+        <test-method status="PASS" signature="configureBM()[pri:0, instance:com.crm.autodesk.organization.Test.CreateOrganizationandValidateTest@6d3af739]" name="configureBM" is-config="true" duration-ms="4387" started-at="2022-03-23T18:13:52 IST" finished-at="2022-03-23T18:13:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBM -->
+        <test-method status="PASS" signature="createOrganization()[pri:0, instance:com.crm.autodesk.organization.Test.CreateOrganizationandValidateTest@6d3af739]" name="createOrganization" duration-ms="14765" started-at="2022-03-23T18:13:56 IST" finished-at="2022-03-23T18:14:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method status="PASS" signature="configureAM()[pri:0, instance:com.crm.autodesk.organization.Test.CreateOrganizationandValidateTest@6d3af739]" name="configureAM" is-config="true" duration-ms="1944" started-at="2022-03-23T18:14:11 IST" finished-at="2022-03-23T18:14:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAM -->
+        <test-method status="PASS" signature="configureAC()[pri:0, instance:com.crm.autodesk.organization.Test.CreateOrganizationandValidateTest@6d3af739]" name="configureAC" is-config="true" duration-ms="830" started-at="2022-03-23T18:14:13 IST" finished-at="2022-03-23T18:14:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAC -->
+        <test-method status="PASS" signature="configureAT()[pri:0, instance:com.crm.autodesk.organization.Test.CreateOrganizationandValidateTest@6d3af739]" name="configureAT" is-config="true" duration-ms="1" started-at="2022-03-23T18:14:14 IST" finished-at="2022-03-23T18:14:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAT -->
+        <test-method status="PASS" signature="configureAS()[pri:0, instance:com.crm.autodesk.organization.Test.CreateOrganizationandValidateTest@6d3af739]" name="configureAS" is-config="true" duration-ms="1" started-at="2022-03-23T18:14:14 IST" finished-at="2022-03-23T18:14:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAS -->
+      </class> <!-- com.crm.autodesk.organization.Test.CreateOrganizationandValidateTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

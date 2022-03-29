@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="smokeTest" />
+		</run>
+	</groups>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class	name="com.crm.autodesk.campaign_with_products.Test.CampaignwithProductsTest" />
+			<class name="com.crm.autodesk.products.Test.Create_ProductTest" />
+			<class name="com.crm.autodesk.contact.Test.Create_ContactTest" />
+			<class	name="com.crm.autodesk.organization.Test.Organization_choose_IndustryTest" />
+			  <class name="com.crm.autodesk.products.Test.ProductbyQuantityinStockTest"/>
+              <class name="com.crm.autodesk.products.Test.ProductbyUnitTest"/>
+              <class  name="com.crm.autodesk.campaigns.Test.Create_CampaignTest"/>
+              <class  name="com.crm.autodesk.contact.Test.Choose_Organization_in_contactTest"/>
+               <class   name="com.crm.autodesk.organization.Test.CreateOrganizationandValidateTest"/>
+		     </classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.crm.autodesk.campaign_with_products.Test.CampaignwithProductsTest">
+        <methods>
+          <include name="configureAT"/>
+          <include name="configureAS"/>
+          <include name="configureBT"/>
+          <include name="configureAC"/>
+          <include name="configureAM"/>
+          <include name="configureBM"/>
+          <include name="campaignwithProduct"/>
+          <include name="configureBS"/>
+          <include name="configureBC"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.campaign_with_products.Test.CampaignwithProductsTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

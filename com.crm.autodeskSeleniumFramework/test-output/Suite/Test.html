@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 23 14:23:18 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>355 seconds (355966 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.crm.autodesk.products.Test.Create_ProductTest.createProduct()'><b>createProduct</b><br>Test class: com.crm.autodesk.products.Test.Create_ProductTest</td>
+<td></td>
+<td>15</td>
+<td>com.crm.autodesk.products.Test.Create_ProductTest@6483f5ae</td></tr>
+<tr>
+<td title='com.crm.autodesk.products.Test.ProductbyQuantityinStockTest.productbyQuantity()'><b>productbyQuantity</b><br>Test class: com.crm.autodesk.products.Test.ProductbyQuantityinStockTest</td>
+<td></td>
+<td>21</td>
+<td>com.crm.autodesk.products.Test.ProductbyQuantityinStockTest@b9afc07</td></tr>
+<tr>
+<td title='com.crm.autodesk.organization.Test.Organization_choose_IndustryTest.orgwithIndustry()'><b>orgwithIndustry</b><br>Test class: com.crm.autodesk.organization.Test.Organization_choose_IndustryTest</td>
+<td></td>
+<td>17</td>
+<td>com.crm.autodesk.organization.Test.Organization_choose_IndustryTest@5427c60c</td></tr>
+<tr>
+<td title='com.crm.autodesk.campaign_with_products.Test.CampaignwithProductsTest.campaignwithProduct()'><b>campaignwithProduct</b><br>Test class: com.crm.autodesk.campaign_with_products.Test.CampaignwithProductsTest</td>
+<td></td>
+<td>30</td>
+<td>com.crm.autodesk.campaign_with_products.Test.CampaignwithProductsTest@4bb4de6a</td></tr>
+<tr>
+<td title='com.crm.autodesk.products.Test.ProductbyUnitTest.productbyUnit()'><b>productbyUnit</b><br>Test class: com.crm.autodesk.products.Test.ProductbyUnitTest</td>
+<td></td>
+<td>20</td>
+<td>com.crm.autodesk.products.Test.ProductbyUnitTest@73d4cc9e</td></tr>
+<tr>
+<td title='com.crm.autodesk.campaigns.Test.Create_CampaignTest.createCampaign()'><b>createCampaign</b><br>Test class: com.crm.autodesk.campaigns.Test.Create_CampaignTest</td>
+<td></td>
+<td>15</td>
+<td>com.crm.autodesk.campaigns.Test.Create_CampaignTest@80169cf</td></tr>
+<tr>
+<td title='com.crm.autodesk.contact.Test.Create_ContactTest.creteContact()'><b>creteContact</b><br>Test class: com.crm.autodesk.contact.Test.Create_ContactTest</td>
+<td></td>
+<td>16</td>
+<td>com.crm.autodesk.contact.Test.Create_ContactTest@382db087</td></tr>
+<tr>
+<td title='com.crm.autodesk.contacts_with_organization.Test.Contacts_with_OrganizationTest.contactswithOrganization()'><b>contactswithOrganization</b><br>Test class: com.crm.autodesk.contacts_with_organization.Test.Contacts_with_OrganizationTest</td>
+<td></td>
+<td>31</td>
+<td>com.crm.autodesk.contacts_with_organization.Test.Contacts_with_OrganizationTest@57f23557</td></tr>
+<tr>
+<td title='com.crm.autodesk.organization.Test.CreateOrganizationandValidateTest.createOrganization()'><b>createOrganization</b><br>Test class: com.crm.autodesk.organization.Test.CreateOrganizationandValidateTest</td>
+<td></td>
+<td>16</td>
+<td>com.crm.autodesk.organization.Test.CreateOrganizationandValidateTest@3d0f8e03</td></tr>
+<tr>
+<td title='com.crm.autodesk.contact.Test.Choose_Organization_in_contactTest.organizationinContact()'><b>organizationinContact</b><br>Test class: com.crm.autodesk.contact.Test.Choose_Organization_in_contactTest</td>
+<td></td>
+<td>32</td>
+<td>com.crm.autodesk.contact.Test.Choose_Organization_in_contactTest@543e710e</td></tr>
+</table><p>
+</body>
+</html>
